@@ -1,0 +1,73 @@
+body{
+    background-image: url("https://img.freepik.com/premium-vector/flat-speech-bubles-background_485157-94.jpg?w=740");
+}
+#title{
+    font-family: 'Monoton', cursive;
+    color: wheat;
+    font-size: 20px;
+}
+#chatWindow{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    height: 98vh;
+    width: 50vw;
+    /* background-color: aqua; */
+    background-image: url("https://img.freepik.com/free-vector/dialogue-chat-clouds-speech-bubble-icon-from-lines-triangles-particle-style-design-low-poly-technology-devices-people-communication-concept-blue-background_587448-472.jpg?w=826&t=st=1679220613~exp=1679221213~hmac=3ab93a1c838dfac53e4ec456c17ed6f6d4fde5e5f3cd4d72224ed4a9c88e9733");
+    margin-left: 25%;
+    border-radius: 10px;
+}
+#container{
+    height: 90%;
+    width: 100%;
+    /* background-color: red; */
+    /* margin-left:50% ; */
+    background-image: url("https://img.freepik.com/free-vector/speech-bubbles-collection_23-2147512511.jpg?size=338&ext=jpg&ga=GA1.2.1998538125.1679216878&semt=ais");
+    background-size: cover;
+    border-radius: 10px;
+}
+#bgiMG{
+    height:90%;
+}
+
+#messageInp{
+display: inline;
+border-radius: 5px;
+border: 1px solid white;
+}
+
+#messageInp:focus{
+    outline: none;
+    background-color: azure;
+    color: dimgray;
+
+
+}
+#send{
+    height: 10px;
+    width: 10px;
+    display: inline;
+    border: none;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float: right;
+    clear: both;
+}
+.message{
+    background-color: rgb(171, 255, 3);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    font-size: 12px;
+    width: fit-content;
+    margin: 17px 2px;
+    border: none;
+    border-radius: 10px;
+    word-wrap: break-word;
+    color: darkslategrey;
+    /* overflow: scroll; */
+}
